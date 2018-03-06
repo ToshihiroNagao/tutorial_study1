@@ -1,5 +1,7 @@
 #include "ros/ros.h"
 #include "nav_msgs/Odometry.h"
+#include "std_msgs/String.h"
+#include "sstream"
 
 void chatterCallback(const nav_msgs::Odometry::ConstPtr& msg)
 {
